@@ -9,6 +9,5 @@ export default class Test extends Component {
   @action changePosition() {
     this.displayLat = 55;
     this.displayLng = 16;
-    console.log('qwe');
   }
 }
