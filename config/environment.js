@@ -21,6 +21,13 @@ module.exports = function (environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
+
+    'ember-google-maps': {
+      key: '',
+      language: 'en',
+      libraries: ['places', 'visualization'],
+      protocol: 'https'
+    },
   };
 
   if (environment === 'development') {
